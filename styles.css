@@ -1,7 +1,7 @@
 body{
     text-align:center;
     font-family: "merriweather" serif;
-    margin: 0;
+    margin:auto;
 }
 
 .Dam {
@@ -182,10 +182,4 @@ background-color: #c0cdbe;
   .features{
     background-color: #E6FFFD;
     padding: 100px 0 100px 0;
-  }
-
-  @media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
   }
