@@ -1,12 +1,12 @@
 body{
     text-align:center;
     font-family: "merriweather" serif;
-    margin:auto;
+    margin: 0;
 }
 
 .Dam {
  position: relative;
- right: 200px;
+ right: 10%;
    font-family: "Almendra SC";
    
 }
@@ -14,7 +14,9 @@ body{
     width: 10%;
     height: 10%;
 }
-
+iframe{
+    width: 20%;
+}
 .container {
     padding: 10px;
     
@@ -181,3 +183,9 @@ background-color: #c0cdbe;
     background-color: #E6FFFD;
     padding: 100px 0 100px 0;
   }
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
