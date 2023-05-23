@@ -183,3 +183,11 @@ background-color: #c0cdbe;
     background-color: #E6FFFD;
     padding: 100px 0 100px 0;
   }
+
+  @media (min-width: 768px) {
+    .flex-md-equal > * {
+      -ms-flex: 1;
+      -webkit-box-flex: 1;
+      flex: 1;
+    }
+  }
