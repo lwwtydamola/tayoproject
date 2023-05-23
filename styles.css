@@ -5,16 +5,14 @@ body{
 }
 
 .Dam {
-
+    position: relative;
+    right: 50px;
    font-family: "Almendra SC";
    
 }
 .Tay{
     width: 10%;
     height: 10%;
-}
-iframe{
-    width: 20%;
 }
 .container {
     padding: 10px;
@@ -46,7 +44,7 @@ h2 {
 
 a {
     color: #11999E;
-    margin: 10px 20px;
+    padding: 10px 20px;
     text-decoration: none;
 }
 a:hover{
