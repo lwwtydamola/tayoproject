@@ -11,16 +11,16 @@ body{
 
 .Dam {
     position: relative;
-    right: 50px;
+    right: 0px;
    font-family: "Almendra SC";
    
 }
 .Tay{
-    width: 10%;
-    height: 10%;
+    width: 20%;
+    height: 20%;
 }
 .container {
-    padding: 10px;
+    padding: 0px;
     
   }
   .site-header {
@@ -75,7 +75,7 @@ hr {
     border-bottom: none;
     width: 20%;
     border-width: 15px;
-    margin: 100px auto;
+    margin: 10%auto;
 }
 
 p {
@@ -100,10 +100,11 @@ line-height: 2;
 
 .Web2 {
         position: relative; 
-        left:25%;
+        left:20%;
         width: 200px;
         height: 200px;
-        display:block;
+        display: block;
+        
 }    
 
 .Top-Container{
