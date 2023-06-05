@@ -104,7 +104,7 @@ line-height: 2;
         width: 200px;
         height: 200px;
         display: block;
-        
+       
 }    
 
 .Top-Container{
@@ -172,12 +172,15 @@ background-color: #c0cdbe;
   }
  
   table, thead, th, tr, td, caption{
-    border: solid 1px #57d63d;
+    border: solid 2px #57d63d;
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     padding: 0.5rem;
     color:  #000;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
   }
+  
   .Center {
     margin-left: auto;
     margin-right: auto;
@@ -187,7 +190,7 @@ background-color: #c0cdbe;
     padding: 100px 0 100px 0;
   }
 
-  @media (min-width: 768px) {
+  @media(min-width: 480px) {
     .flex-md-equal > * {
       -ms-flex: 1;
       -webkit-box-flex: 1;
