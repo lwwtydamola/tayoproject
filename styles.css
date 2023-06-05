@@ -191,5 +191,20 @@ background-color: #c0cdbe;
   }
 
   @media screen and (min-width: 480px) {
+    body{
+      background-color: #57d63d;
+      margin: auto;
+    }
+    a {
+      color: #ecf4f4;
+      padding: 10px;
+      text-decoration: none;
+      text-align: center;
+      font-size: 2rem;
+    
+  }
+  a:hover{
+      color: #31b96e;
+  }  
     
   }
