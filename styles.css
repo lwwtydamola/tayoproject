@@ -49,6 +49,7 @@ h2 {
 
 a {
     color: #11999E;
+    padding: 50px;
     text-decoration: none;
 }
 a:hover{
@@ -190,9 +191,5 @@ background-color: #c0cdbe;
   }
 
   @media screen and (min-width: 480px) {
-    .flex-md-equal > * {
-      -ms-flex: 1;
-      -webkit-box-flex: 1;
-      flex: 1;
-    }
+    
   }
