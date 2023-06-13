@@ -1,3 +1,18 @@
+
+@media screen and (max-width:320px) { 
+  *{
+    box-sizing: border-box;
+  }
+  
+}
+@media screen and (max-width:320px) { 
+  body{
+    margin: 0 10px;
+  font-size: 1rem;
+  background-color:#fff;
+  text-align: center;
+  }
+}
 *{
   box-sizing: border-box;
 }
@@ -24,7 +39,7 @@ h2{
   padding: 10px 0px;
   border-radius: 5px;
 }
-@media screen and (max-width:500px) { 
+@media screen and (max-width:320px) { 
   .bar3{
   font-size: 1rem;
   gap: none;
@@ -32,16 +47,16 @@ h2{
   }
   
 }
-@media screen and (max-width:500px) { 
+@media screen and (max-width:320px) { 
   .bar312{
-    margin-left: 0px;
     font-size: 1rem;
   }
   
 }
-@media screen and (max-width:500px) { 
+@media screen and (max-width:320px) { 
   .bar3{
-    width: 100%;
+    background-color: #830707;
+    padding: 200px;
   }
   
 }
@@ -49,7 +64,6 @@ h2{
 .bar1{
   border: solid 1px;
   border-radius: 5px;
-  margin-right: 150px;
   background-color: #8a1212;
   border-color: transparent;
   font-size: larger;
@@ -129,7 +143,7 @@ hr{
   
 }
 
-@media screen and (max-width:500px) { 
+@media screen and (max-width:320px) { 
   hr{
     border: dotted 20px;
   border-style: double;
@@ -173,7 +187,7 @@ hr{
   padding-left: 70px;
 
 }
-@media screen and (max-width:500px) { 
+@media screen and (max-width:320px) { 
   .skill-row{
   display: inline-block;
   position: relative;
@@ -183,7 +197,7 @@ hr{
   }
   
 }
-@media screen and (max-width:500px) { 
+@media screen and (max-width:320px) { 
   .skills{
   background-color: #df7e63;
   border-radius: 10px;
@@ -219,7 +233,7 @@ table,th,td,caption{
   width: 400px;
   border-color: #ee1616;
 }
-@media screen and (max-width:500px) { 
+@media screen and (max-width:320px) { 
   table,th,td,caption{
     border: solid 1px;
     width: 350px;
